@@ -9,32 +9,32 @@ Aplikasi berbasis console (CLI) ini memungkinkan pengguna untuk mensimulasikan k
 ---
 ### Bagian Admin
 ![Admin](images/2.png)
-- **Login**: Bagian login untuk admin.
+- **Login**: Pada bagian ini berisi halaman login, untuk tampilan login untuk admin dan user sama saja. Yang membedakan hanya username untuk custumer dan admin pastinya berbeda. 
 ---
 ![Admin](images/3.png)
-- **Tambah Saham**: Menambahkan saham baru ke dalam daftar.
+- **Tambah Saham**: Seorang admin dapat menambahkan saham baru ke dalam daftar saham, admin juga dapat menyesuaikan harganya dan juga kode saham.
 ---
 ![Admin](images/10.png)
-- **Ubah Harga Saham**: Mengubah harga saham yang telah terdaftar.
+- **Ubah Harga Saham**: Seorang admin dapat mengubah harga dari saham yang telah terdaftar, ini berfungsi jika ada kesalahan input ketika menambahkan saham
 ---
 ![Admin](images/4.png)
-- **Tambah SBN**: Menambahkan Surat Berharga Negara beserta detailnya.
+- **Tambah SBN**: Sama seperti pada saham, seorang admin dapat menambahkan Surat Berharga Negara(SBN) beserta detailnya kedalam daftar. Hanya saja pada SBN admin tidak dapat mengubah persentase bunga, jatuh tempo, dan kuota nasional, jadi admin hanya bisa menambah SBN dan setelah ditambah maka sudah tidak bisa lagi diubah.
 ---
 ### Bagian Customer
 ![Costumer](images/5.png)
 - **Login**: Bagian login untuk costumer.
 ---
 ![Costumer](images/6.png)
-- **Beli Saham**: Membeli saham yang tersedia berdasarkan jumlah lembar.
+- **Beli Saham**: Costumer dapat membeli saham yang tersedia pada daftar saham berdasarkan jumlah lembar saham yang diinginkan. Jika berhasil akan muncul output seperti pada gambar diatas
 ---
 ![Costumer](images/11.png)
-- **Jual Saham**: Menjual sebagian atau seluruh saham yang dimiliki.
+- **Jual Saham**: Costumer juga dapat menjual sebagian atau seluruh saham yang dimiliki sesuai dengan harga yang tertera pada daftar saham. Apabila berhasil maka akan muncul output seperti pada gambar
 ---
 ![Costumer](images/7.png)
-- **Beli SBN**: Membeli Surat Berharga Negara berdasarkan kuota nasional yang tersedia.
+- **Beli SBN**: Costumer dapat melakukan Pembelian SBN berdasarkan kuota nasional yang tersedia. Apabila costumer melakukan pembelian melebihi kuota nasional maka pembelian akan gagal.
 ---
 ![Costumer](images/8.png)
-- **Simulasi SBN**: Menampilkan simulasi kupon bulanan berdasarkan investasi.
+- **Simulasi SBN**: Pada bagian ini hanya Menampilkan simulasi hasil bulanan berdasarkan investasi yang dilakukan costumer
 ---
 ![Costumer](images/9.png)
-- **Lihat Portofolio**: Menampilkan portofolio saham & SBN beserta nilai pasarnya.
+- **Lihat Portofolio**: Menampilkan seluruh portofolio saham dan SBN yang dimiliki costumer beserta nilai pasar yang terakhir diupdate oleh admin.
